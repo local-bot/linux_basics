@@ -1,0 +1,8 @@
+
+#Operating-System #Version #Rating #Comments
+
+Windows 10 6 Garbage
+Windows 11 7 its ok
+Debian 11 8 me gusta
+Ubuntu 22.10 8,5 plz remove snap
+Pop-os 22,04 8 no grub :(
