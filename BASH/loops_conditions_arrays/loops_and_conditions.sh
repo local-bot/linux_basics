@@ -3,16 +3,18 @@
 
 # for examples
 
+# with ls
 for i in $( ls ); do
     echo item: $i
 done
 
 for file in *.jpeg; do mv -- "$file" "${file%.jpeg}.jpg"; done
 
+# with array
+array=(Hello World)
 for i in "${array[@]}"; do  echo $i ; done
 
-# while examples
-        
+# while examples       
 i=1
 while [ $i -le 10 ]
 do
@@ -20,6 +22,7 @@ echo $i
 ((i++))
 done
 
+# while with ls
 while read line; do echo $line; done < example.txt
 
 ls | grep *.txt | while read line; do echo $line; done
