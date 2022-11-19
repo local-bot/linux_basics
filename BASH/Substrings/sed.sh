@@ -11,5 +11,5 @@ sed "s/somethin_old/somethin_new/g" filename
 # saves changes to file
 sed -i "s/somethin_old/somethin_new/"
 
-# removes staring at line whitespaces  
+# removes first staring staring with whitespaces  
 sed "s/^\s*//" filename
