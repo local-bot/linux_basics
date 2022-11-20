@@ -1,9 +1,9 @@
 
 # apt
-+ +can Download Packages 
-+ +can installs dependencies
++can Download Packages 
++can installs dependencies
 
-# list all ürpgrams from all available repos (CDROM , online repos ...)
+# list all ürpgrams from all available repos (CDROM, online repos ...)
 apt list
 
 # list installed
