@@ -1,7 +1,8 @@
 
 # apt
-+can Download Packages \\
-+can installs dependencies \\
++can Download Packages 
+
++can installs dependencies 
 
 # list all available programs from all available repos (CDROM, online repos ...)
 apt list

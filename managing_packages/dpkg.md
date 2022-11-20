@@ -1,7 +1,8 @@
 
 # dpkg
-+can do basic stuff \\
--wont tinstall dependencies \\
++can do basic stuff
+
+-wont tinstall dependencies 
 
 # shows all installed
 dpkg -l
