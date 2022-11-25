@@ -1,0 +1,6 @@
+
+
+Options +FollowSymLinks (FollowSymLinks is an acronym for Follow Symbolic Links)
+    Require valid-user - (requirements to acces the service)
+    Allow from all - (no IP addresses blocked from accessing the service)
+    AllowOverride All - (allows .htacces file to override all apache configurations)
