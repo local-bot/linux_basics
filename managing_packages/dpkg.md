@@ -7,7 +7,7 @@
 </pre>
 
 # shows all installed
-</pre>
+<pre>
 dpkg -l
 </pre>
 
