@@ -1,0 +1,8 @@
+    #!/usr/bin/env bash
+
+    for x in $( grep ^UUID /etc/fstab | cut -d / -f 1 | cut -d = -f 2 )
+    do
+            if [ ! -h /dev/disk/by-uuid/$x ];then
+                    echo $( grep $x /etc/fstab )  ..... not found
+            fi
+    done
