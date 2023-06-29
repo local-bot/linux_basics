@@ -14,6 +14,11 @@ gpg --list-keys
 gpg --list-secret-keys
 ~~~
 
+## export gpg Keys
+~~~
+gpg --export -a insert_user > public.key
+~~~
+
 ## Import Other Users’ Public Keys (--import)
 ~~~
 # import key
