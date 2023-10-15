@@ -3,7 +3,7 @@
 
 ## nano /etc/pam.d/su
 
-Uncomment:
+Commment out:
 <pre>
 #auth   required    pam_wheel.so use_uid
 </pre>
